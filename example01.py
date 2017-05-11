@@ -16,7 +16,7 @@ optimizer = tf.train.GradientDescentOptimizer(0.5)
 train = optimizer.minimize(loss)
 
 #initialize variable
-init = tf.initialize_all_variables()
+init = tf.global_variables_initializer()
 
 #launch map
 sess = tf.Session()
