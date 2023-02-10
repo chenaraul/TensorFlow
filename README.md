@@ -1,2 +1,2 @@
-# TensorFlow
-A test project of Tensorflow
+# Pytorch
+A test project of Pytorch
